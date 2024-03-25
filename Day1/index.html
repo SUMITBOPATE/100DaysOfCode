@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document
+
+
+
+    </title>
+</head>
+<body>
+   <nav class="bg midnight">
+    <a href="">TODo</a>
+    <a href="">Sign In</a>
+</nav> 
+   <main>
+<section class="main-section">
+        The Only To Do -
+        <div class="bg-midnight text-tahiti">
+         <!-- ... -->
+       </div>
+</section>
+<section>
+<button>Get Started</button>
+
+
+</section>
+<footer>
+<table>
+ <tr>
+   <th> March</th>
+   <th> April</th>
+</tr>
+<tr>
+<td>Day1</td>
+<td>Day1</td>
+</tr>
+</table>
+</footer>
+<canvas id="myCanvas" width="200" height="100" controls></canvas>
+<video width="30" height="240">
+
+   <source src="https://www.youtube.com/@KevinPowell/playlists" type="video/mp4">
+</video>
+   </main>
+</body>
+<script>
+   // Get the canvas element
+   var canvas = document.getElementById('myCanvas');
+   
+   // Get the 2D rendering context
+   var ctx = canvas.getContext('2d');
+   
+   // Draw a red rectangle
+   ctx.fillStyle = 'red';
+   ctx.fillRect(10, 50, 150, 150 );
+   
+   // Draw a blue circle
+   ctx.fillStyle = 'blue';
+   ctx.beginPath();
+   ctx.arc(100, 50, 30, 0, 2 * Math.PI);
+   ctx.fill();
+ </script>
+</html>
