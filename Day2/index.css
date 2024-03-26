@@ -34,11 +34,11 @@ padding: 3rem;
 .todo-input {
  width: 40vw;
  height: 40px;
- padding: 0 10px;
+ padding:.7rem  1.5rem .7rem 1.5rem;
  border: 2px solid #ccc;
  border-radius: 10px;
  outline: none;
- font-size: 16px;
+ font-size: 2vw;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -68,13 +68,17 @@ color: rgb(49, 54, 63);
   display: flex;
   position: relative;
 
-
+font-size: 2vw;
 width: 40vw;
 display: flex;
 align-items: center;
  background-color:  rgb(233, 236, 239);
  border-radius: 10px;
- padding:.5rem  1rem .5rem;
- margin-top: 3rem;
+ padding:.7rem  1.5rem .7rem 1.5rem;
+ margin-top: 1rem;
  
+}
+.fa-trash{
+  position: relative;
+  left: 90%;
 }
