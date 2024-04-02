@@ -1,0 +1,100 @@
+
+.main-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+padding-bottom: 1rem;
+
+}
+.main-count{
+    display: flex;
+    justify-content: center;
+
+    height: 9vw;
+    width: 18vw;
+    background: #f3d241;
+    
+}
+.main-totalcount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 2px;
+    height: 7vw;
+    width: 14vw;
+    color: black;
+    font-weight: bold;
+    background: #f3d241;  
+    border-radius: 5px; 
+    font: 3vw sans-serif;
+}
+.main-amount{
+    display: flex;
+justify-content: center;
+ 
+    height: 7vw;
+    width: 15vw;
+    background: #f3d241;
+}
+
+
+/* Style for the wrapper and item-one classes */
+.wrapper {
+  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+padding: 2px;
+ background-color: #3d4ee7; 
+ font: 2.5vw sans-serif;
+ /* Light grey background */
+}
+
+.item-one {
+    height: 6vw;
+   min-width: 40vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px; /* Space between the text and the input */
+ padding-left: 15px;
+ padding-right: 15px;
+
+ background-color: #ffffff; /* White background */
+ border-radius: 5px; /* Rounded corners */
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+}
+
+/* Style for the input field */
+.item-one input {
+ width: 4vw; /* Adjust the width as needed */
+ height: 2vw; /* Adjust the height as needed */
+ padding: 15px; /* Padding inside the input */
+ border: 1px solid #ccc; /* Light grey border */
+ border-radius: 3px; /* Rounded corners */
+ font-size: 40px; /* Adjust the font size as needed */
+ text-align: center; /* Center the text */
+
+margin: 2rem;}
+
+/* Optional: Style for the input field when it's focused */
+.item-one input:focus {
+ border-color: #007bff; /* Blue border when focused */
+ outline: none; /* Remove the default outline */
+}
+.main-solution{
+    margin: 2rem;
+}
+
+@media (max-width: 768px) {
+    .item-one input {
+        width: 100%; /* Make the input field responsive */
+        height: 1vw; /* Adjust the height for smaller screens */
+        max-width: 60px; /* Limit the maximum width */
+        font-size: 14px; /* Reduce font size for smaller screens */
+        padding: 7px; /* Reduce padding for smaller screens */
+    }
+}
